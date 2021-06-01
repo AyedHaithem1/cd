@@ -9,7 +9,7 @@ function trap_ctrlc() {
 
 trap "trap_ctrlc" 2
 
-cd ./demo-rest-api &&
+cd /root/cicd-training/demo-rest-api/demo-rest-api &&
  mvn clean package docker:build -DskipTests &&
  cd .. &&
  #docker-compose build &&
