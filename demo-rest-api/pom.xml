@@ -76,7 +76,7 @@
 					<autoCreateCustomNetworks>true</autoCreateCustomNetworks>
 					<images>
 						<image>
-							<name>medalibettaieb/${project.artifactId}:${project.version}</name>
+							<name>ayedhaithem1/${project.artifactId}:${project.version}</name>
 						</image>
 					</images>
 				</configuration>
