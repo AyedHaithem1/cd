@@ -13,4 +13,4 @@ cd ./demo-rest-api &&
  mvn clean package docker:build -DskipTests &&
  cd .. &&
  #docker-compose build &&
- docker-compose up
+ docker-compose up -d
