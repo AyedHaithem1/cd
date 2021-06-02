@@ -17,9 +17,9 @@ services:
       - '8087:8080'
     volumes:
       - /data/myapp-spring-boot-app
-    depends_on:
-      mysql-database:
-        condition: service_healthy
+    #depends_on:
+     # mysql-database:
+    #    condition: service_healthy
   adminer:
     image: adminer
     restart: on-failure
